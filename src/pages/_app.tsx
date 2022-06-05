@@ -1,8 +1,8 @@
-import '../../src/ui/styles/globals.css'
-import type { AppProps } from 'next/app'
-import { ThemeProvider } from '@mui/material'
-import theme from '../ui/themes/theme';
-import Header from '../ui/components/Header/Header';
+import "../../src/ui/styles/globals.css";
+import type { AppProps } from "next/app";
+import { ThemeProvider } from "@mui/material";
+import theme from "../ui/themes/theme";
+import Header from "../ui/components/Header/Header";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -13,4 +13,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   );
 }
 
-export default MyApp
+export default MyApp;
